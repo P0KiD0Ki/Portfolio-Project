@@ -7,14 +7,52 @@ body {
   background-size: cover;
 }
 
+.navbar-brand {
+  padding: 0px 0px 0px 10px;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+  border-bottom: 5px solid #945474;
+}
+
+navbar-toggler {
+  margin: 0px 10px 0px 0px;
+}
+
+.nav-margin {
+    margin-top: 150px;
+}
+
 h1 {
   font-family: "Lobster Two", cursive;
+  text-align: center;
+  font-size: 150px;
+  line-height: 160px;
 }
 
-h3, h6 {
+h3,
+h6 {
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
-.navbar-brand {
-    padding: 0px 0px 0px 10px;
+.nav-grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col-3 {
+    padding: 50px 90px;
+    margin: 20px;
+    border: 2px solid #945474;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.github-link {
+  text-decoration: none;
+  text-align: center;
 }
