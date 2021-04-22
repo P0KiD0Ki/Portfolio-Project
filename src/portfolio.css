@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #ace0ac;
+    --secondary-color: #945474;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
 body {
   background: url(https://i.imgur.com/DJXddUT.png) no-repeat;
   background-attachment: fixed;
@@ -51,14 +56,18 @@ div.row {
 }
 
 .col-3 {
-    padding: 50px 90px;
-    margin: 20px;
+    padding: 10px 70px;
+    margin: 15px auto;
     border: 2px solid #945474;
-    border-radius: 8px;
-    text-align: center;
+    border-radius: 30px;
 }
 
-h6.github-link {
+.github-link {
   text-decoration: none;
   text-align: center;
+  color: var(--secondary-color)
+}
+
+span.col-3.about {
+    max-width: 300px;
 }
