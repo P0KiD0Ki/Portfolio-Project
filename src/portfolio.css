@@ -1,7 +1,7 @@
 :root {
   --primary-color: #ace0ac;
   --secondary-color: #945474;
-  --tertiary-color: #DEFFDE;
+  --tertiary-color: #deffde;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font: "Lobster Two", cursive;
   --content-font: "Poppins", sans-serif;
@@ -137,7 +137,7 @@ img.img-fluid.headshot {
   box-shadow: var(--box-shadow);
 }
 
-p {
+p.about {
   font-family: var(--content-font);
   text-align: left;
   font-size: 20px;
@@ -174,7 +174,7 @@ button.about:hover {
   background: #fefefe;
   border: 2px solid var(--secondary-color);
   border-radius: 8px;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 h4.skills {
@@ -196,34 +196,105 @@ span.col-4 {
 }
 
 div.row.about-contact {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 span.col-6.contact-icons {
-    background: #639463;
-    border: 4px solid var(--primary-color);
-    border-radius: 55px;
-    width: 90px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 0px 5px 30px;
-
+  background: #639463;
+  border: 4px solid var(--primary-color);
+  border-radius: 55px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 5px 30px;
 }
 
 .fab.fa-linkedin,
 .fas.fa-envelope-square {
-    font-size: 55px;
-    color: white;
-    position: relative;
-    top: 12px;
-    
+  font-size: 55px;
+  color: white;
+  position: relative;
+  top: 12px;
 }
 
 .fab.fa-linkedin:hover,
 .fas.fa-envelope-square:hover {
-    color: var(--tertiary-color);
-    transition: .35s ease-in-out;
+  color: var(--tertiary-color);
+  transition: 0.35s ease-in-out;
 }
+
+/* work page */
+p.work {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+div.container.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span.dictionary-app {
+  margin-bottom: 50px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  background: url(https://i.imgur.com/17kMyl9.png) no-repeat;
+  padding: 150px 200px;
+
+}
+
+span.dictionary-app:hover {
+    background: url(https://i.imgur.com/jFlQDv5.gif) no-repeat;
+}
+
+span.react-weather {
+  margin-bottom: 50px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  background: url(https://i.imgur.com/D2pGW8U.png) no-repeat;
+  padding: 150px 200px;
+
+}
+
+span.react-weather:hover {
+    background: url(https://i.imgur.com/Cdu7P0y.gif) no-repeat;
+}
+
+span.vanilla-weather {
+    margin-bottom: 50px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  background: url(https://i.imgur.com/V5WMXZa.png) no-repeat;
+  padding: 150px 200px;
+
+}
+
+span.vanilla-weather:hover {
+    background: url(https://i.imgur.com/uyuk9Rw.png) no-repeat;
+    transition: .5s ease-in-out;
+}
+
+button.work {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    color: white;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  button.work:hover {
+    color: var(--secondary-color);
+    background: #fefefe;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+  }
