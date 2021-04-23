@@ -56,7 +56,7 @@ div.row {
   margin-bottom: 80px;
 }
 .col-3 {
-  padding: 70px 150px;
+  padding: 60px 140px;
   margin: 20px auto;
   border: 2px solid #945474;
   border-radius: 25px;
@@ -107,6 +107,10 @@ button.home {
   padding: 10px 20px;
   position: relative;
   left: -55px;
+}
+
+button.home:hover {
+
 }
 
 .github-link {
