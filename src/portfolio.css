@@ -71,34 +71,46 @@ div.row {
   text-align: center;
 }
 
-button.col-3.about {
-  background: url(https://i.imgur.com/j6SUjTu.png) no-repeat;
+span.col-3.about {
+  background: url(https://i.imgur.com/QR5n3Yk.png) no-repeat;
+  box-shadow: var(--box-shadow);
 }
 
-button.col-3.about:hover {
-    background: rgba(254, 254, 254, .5);
+span.col-3.about:hover {
+  background: url(https://i.imgur.com/nbSiHYw.png) no-repeat;
+    transition: 0.5s ease-in-out;
+  font-size: 25PX;
+}
+
+span.col-3.projects {
+  background: url(https://i.imgur.com/1cpLjEM.png) no-repeat;
+  box-shadow: var(--box-shadow);
+}
+
+span.col-3.projects:hover {
+  background: url(https://i.imgur.com/eYNeheO.png) no-repeat;
+    transition: 0.5s ease-in-out;
+  font-size: 25PX;
+}
+
+span.col-3.contact {
+  background: url(https://i.imgur.com/sBmlQMH.png) no-repeat;
+  box-shadow: var(--box-shadow);
+}
+
+span.col-3.contact:hover {
+    background: url(https://i.imgur.com/CwqGitg.png) no-repeat;
   transition: 0.5s ease-in-out;
   font-size: 25PX;
 }
 
-button.col-3.projects {
-  background: url(https://i.imgur.com/EnYV3fx.png);
-}
-
-button.col-3.projects:hover {
-    background: rgba(254, 254, 254, .5);
-  transition: 0.5s ease-in-out;
-  font-size: 25PX;
-}
-
-button.col-3.contact {
-  background: url(https://i.imgur.com/UNkkZor.png) no-repeat;
-}
-
-button.col-3.contact:hover {
-  background: rgba(254, 254, 254, .5);
-  transition: 0.5s ease-in-out;
-  font-size: 25PX;
+button.home {
+    display: inline-block;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    color: white;
 }
 
 .github-link {
