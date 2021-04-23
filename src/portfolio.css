@@ -50,14 +50,16 @@ h6 {
   flex-direction: row;
 }
 
-div.row {
+div.row.index {
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
   margin-bottom: 80px;
 }
-.col-3 {
+span.col-3.about,
+span.col-3.projects,
+span.col-3.contact {
   padding: 60px 140px;
   margin: 20px auto;
   border: 2px solid #945474;
@@ -126,22 +128,95 @@ h1.about-me {
 }
 
 img.img-fluid.headshot {
-    width: 400px;
-    display: inline-block;
-    border: 4px solid var(--secondary-color);
-    padding: 0;
+  width: 400px;
+  display: inline-block;
+  border: 4px solid var(--secondary-color);
+  padding: 0;
+  border-radius: 8px;
 }
 
 p {
-    font-family: var(--content-font);
-    text-align: left;
-    font-size: 20px;
+  font-family: var(--content-font);
+  text-align: left;
+  font-size: 20px;
 }
 
 div.row.about {
-margin: 0 auto;
+  margin: 0 auto 80px;
 }
 
 div.container {
-    margin: 0 auto;
+  margin: 0 auto;
+}
+
+div.container.about-skills {
+  border: 4px solid #639463;
+  background: var(--primary-color);
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+button.about {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  background: var(--secondary-color);
+  color: white;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+button.about:hover {
+  color: var(--secondary-color);
+  background: #fefefe;
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+}
+
+h4.skills {
+  text-align: center;
+  margin-top: 20px;
+  font-family: var(--content-font);
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+span.col-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.row.about-contact {
+    display: flex;
+    justify-content: center;
+}
+
+span.col-6.contact-icons {
+    background: #639463;
+    border: 4px solid var(--primary-color);
+    border-radius: 55px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 5px 30px;
+
+}
+
+.fab.fa-linkedin,
+.fas.fa-envelope-square {
+    font-size: 55px;
+    color: white;
+    position: relative;
+    top: 12px;
+}
+
+.fab.fa-linkedin:hover,
+.fas.fa-envelope-square:hover {
+    color: #DEFFDE;
 }
