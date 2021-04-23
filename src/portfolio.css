@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ace0ac;
   --secondary-color: #945474;
+  --tertiary-color: #DEFFDE;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font: "Lobster Two", cursive;
   --content-font: "Poppins", sans-serif;
@@ -133,6 +134,7 @@ img.img-fluid.headshot {
   border: 4px solid var(--secondary-color);
   padding: 0;
   border-radius: 8px;
+  box-shadow: var(--box-shadow);
 }
 
 p {
@@ -154,6 +156,7 @@ div.container.about-skills {
   background: var(--primary-color);
   border-radius: 8px;
   margin-bottom: 50px;
+  box-shadow: var(--box-shadow);
 }
 
 button.about {
@@ -171,17 +174,19 @@ button.about:hover {
   background: #fefefe;
   border: 2px solid var(--secondary-color);
   border-radius: 8px;
+  transition: .5s ease-in-out;
 }
 
 h4.skills {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   font-family: var(--content-font);
 }
 
 li {
   list-style-type: none;
   text-align: center;
+  font-size: 20px;
 }
 
 span.col-4 {
@@ -214,9 +219,11 @@ span.col-6.contact-icons {
     color: white;
     position: relative;
     top: 12px;
+    
 }
 
 .fab.fa-linkedin:hover,
 .fas.fa-envelope-square:hover {
-    color: #DEFFDE;
+    color: var(--tertiary-color);
+    transition: .35s ease-in-out;
 }
