@@ -69,10 +69,8 @@ span.col-3.about {
 }
 
 span.col-3.about:hover {
-  background: url(https://i.imgur.com/nbSiHYw.png) no-repeat;
   transition: 0.5s ease-in;
   transition: 0.5s ease-out;
-  font-size: 25px;
 }
 
 span.col-3.projects {
@@ -81,9 +79,7 @@ span.col-3.projects {
 }
 
 span.col-3.projects:hover {
-  background: url(https://i.imgur.com/eYNeheO.png) no-repeat;
   transition: 0.5s ease-in-out;
-  font-size: 25px;
 }
 
 span.col-3.contact {
@@ -92,9 +88,7 @@ span.col-3.contact {
 }
 
 span.col-3.contact:hover {
-  background: url(https://i.imgur.com/CwqGitg.png) no-repeat;
   transition: 0.5s ease-in-out;
-  font-size: 25px;
 }
 
 button.home {
@@ -106,11 +100,14 @@ button.home {
   margin: 0 auto;
   padding: 10px 20px;
   position: relative;
-  left: -55px;
+  left: -45px;
 }
 
 button.home:hover {
-
+color: var(--secondary-color);
+background: none;
+border: 2px solid var(--secondary-color);
+border-radius: 8px;
 }
 
 .github-link {
