@@ -2,6 +2,8 @@
   --primary-color: #ace0ac;
   --secondary-color: #945474;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font: "Lobster Two", cursive;
+  --content-font: "Poppins", sans-serif;
 }
 body {
   background: url(https://i.imgur.com/DJXddUT.png) no-repeat;
@@ -104,14 +106,42 @@ button.home {
 }
 
 button.home:hover {
-color: var(--secondary-color);
-background: #fefefe;
-border: 2px solid var(--secondary-color);
-border-radius: 8px;
+  color: var(--secondary-color);
+  background: #fefefe;
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
 }
 
 .github-link {
   text-decoration: none;
   text-align: center;
   color: var(--secondary-color);
+}
+
+/* about page */
+
+h1.about-me {
+  margin: 150px auto 30px;
+  font-size: 100px;
+}
+
+img.img-fluid.headshot {
+    width: 400px;
+    display: inline-block;
+    border: 4px solid var(--secondary-color);
+    padding: 0;
+}
+
+p {
+    font-family: var(--content-font);
+    text-align: left;
+    font-size: 20px;
+}
+
+div.row.about {
+margin: 0 auto;
+}
+
+div.container {
+    margin: 0 auto;
 }
