@@ -48,24 +48,16 @@ h6 {
   flex-direction: row;
 }
 
-.nav-grid a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 5px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
 div.row {
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .col-3 {
   padding: 70px 150px;
-  margin: 50px auto;
+  margin: 20px auto;
   border: 2px solid #945474;
   border-radius: 25px;
   text-align: center;
@@ -78,8 +70,8 @@ span.col-3.about {
 
 span.col-3.about:hover {
   background: url(https://i.imgur.com/nbSiHYw.png) no-repeat;
-    transition: 0.5s ease-in-out;
-  font-size: 25PX;
+  transition: 0.5s ease-in-out;
+  font-size: 25px;
 }
 
 span.col-3.projects {
@@ -89,8 +81,8 @@ span.col-3.projects {
 
 span.col-3.projects:hover {
   background: url(https://i.imgur.com/eYNeheO.png) no-repeat;
-    transition: 0.5s ease-in-out;
-  font-size: 25PX;
+  transition: 0.5s ease-in-out;
+  font-size: 25px;
 }
 
 span.col-3.contact {
@@ -99,18 +91,18 @@ span.col-3.contact {
 }
 
 span.col-3.contact:hover {
-    background: url(https://i.imgur.com/CwqGitg.png) no-repeat;
+  background: url(https://i.imgur.com/CwqGitg.png) no-repeat;
   transition: 0.5s ease-in-out;
-  font-size: 25PX;
+  font-size: 25px;
 }
 
 button.home {
-    display: inline-block;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    border-radius: 8px;
-    background: var(--secondary-color);
-    color: white;
+  display: inline-block;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  background: var(--secondary-color);
+  color: white;
 }
 
 .github-link {
