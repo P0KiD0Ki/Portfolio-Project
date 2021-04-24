@@ -15,8 +15,6 @@ body {
   background-size: cover;
 }
 
-
-
 .navbar-brand {
   padding: 0px 0px 0px 10px;
 }
@@ -214,8 +212,22 @@ span.col-6.contact-icons {
   margin: 0px 5px 30px;
 }
 
+span.col-3.contact-icons {
+  background: #639463;
+  border: 4px solid #fefefe;
+  border-radius: 55px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
 .fab.fa-linkedin,
-.fas.fa-envelope-square {
+.fas.fa-envelope-square,
+.fab.fa-github-square,
+.fab.fa-facebook-square {
   font-size: 55px;
   color: white;
   position: relative;
@@ -223,7 +235,9 @@ span.col-6.contact-icons {
 }
 
 .fab.fa-linkedin:hover,
-.fas.fa-envelope-square:hover {
+.fas.fa-envelope-square:hover,
+.fab.fa-github-square:hover,
+.fab.fa-facebook-square:hover {
   color: var(--tertiary-color);
   transition: 0.35s ease-in-out;
   font-size: 60px;
@@ -236,9 +250,9 @@ p.work {
 }
 
 div.container.projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 span.dictionary-app {
@@ -248,12 +262,12 @@ span.dictionary-app {
   box-shadow: var(--box-shadow);
   background: url(https://i.imgur.com/17kMyl9.png) no-repeat;
   padding: 150px 200px;
-
 }
 
 span.dictionary-app:hover {
-    transition: .5s ease-in-out;
-    background: url(https://s3.gifyu.com/images/48bbda278683c7879bebd57f0e2f9271.gif) no-repeat;
+  transition: 0.5s ease-in-out;
+  background: url(https://s3.gifyu.com/images/48bbda278683c7879bebd57f0e2f9271.gif)
+    no-repeat;
 }
 
 span.react-weather {
@@ -263,43 +277,59 @@ span.react-weather {
   box-shadow: var(--box-shadow);
   background: url(https://i.imgur.com/D2pGW8U.png) no-repeat;
   padding: 150px 200px;
-
 }
 
 span.react-weather:hover {
-    transition: .5s ease-in-out;
-    background: url(https://s3.gifyu.com/images/48bbda278683c7879bebd57f0e2f9271.gif) no-repeat;
+  transition: 0.5s ease-in-out;
+  background: url(https://s3.gifyu.com/images/48bbda278683c7879bebd57f0e2f9271.gif)
+    no-repeat;
 }
 
 span.vanilla-weather {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   border: 4px solid var(--secondary-color);
   border-radius: 8px;
   box-shadow: var(--box-shadow);
   background: url(https://i.imgur.com/V5WMXZa.png) no-repeat;
   padding: 150px 200px;
-
 }
 
 span.vanilla-weather:hover {
-    background: url(https://i.imgur.com/I3JoIcq.png) no-repeat;
-    transition: .5s ease-in-out;
+  background: url(https://i.imgur.com/I3JoIcq.png) no-repeat;
+  transition: 0.5s ease-in-out;
 }
 
 button.work {
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    border-radius: 8px;
-    background: var(--secondary-color);
-    color: white;
-    margin: 0 auto;
-    padding: 10px 20px;
-  }
-  
-  button.work:hover {
-    color: var(--secondary-color);
-    background: #fefefe;
-    border: 2px solid var(--secondary-color);
-    border-radius: 8px;
-    transition: 0.5s ease-in-out;
-  }
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  background: var(--secondary-color);
+  color: white;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+button.work:hover {
+  color: var(--secondary-color);
+  background: #fefefe;
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  transition: 0.5s ease-in-out;
+}
+
+/* contact page */
+
+div.container.contact {
+    border: 4px solid #639463;
+  background: var(--primary-color);
+  border-radius: 8px;
+  margin-bottom: 50px;
+  box-shadow: var(--box-shadow);
+  padding: 40px 20px;
+  max-width: 720px;
+}
+
+h5.contact {
+    font-family: var(--content-font);
+    padding-bottom: 20px;
+}
