@@ -224,6 +224,7 @@ span.col-6.contact-icons {
 .fas.fa-envelope-square:hover {
   color: var(--tertiary-color);
   transition: 0.35s ease-in-out;
+  font-size: 60px;
 }
 
 /* work page */
@@ -289,6 +290,7 @@ button.work {
     color: white;
     margin: 0 auto;
     padding: 10px 20px;
+    font-size: 25px;
   }
   
   button.work:hover {
