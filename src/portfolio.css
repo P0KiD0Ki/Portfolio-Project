@@ -15,6 +15,8 @@ body {
   background-size: cover;
 }
 
+
+
 .navbar-brand {
   padding: 0px 0px 0px 10px;
 }
@@ -250,7 +252,8 @@ span.dictionary-app {
 }
 
 span.dictionary-app:hover {
-    background: url(https://i.imgur.com/jFlQDv5.gif) no-repeat;
+    transition: .5s ease-in-out;
+    background: url(https://s3.gifyu.com/images/48bbda278683c7879bebd57f0e2f9271.gif) no-repeat;
 }
 
 span.react-weather {
@@ -264,7 +267,8 @@ span.react-weather {
 }
 
 span.react-weather:hover {
-    background: url(https://i.imgur.com/Cdu7P0y.gif) no-repeat;
+    transition: .5s ease-in-out;
+    background: url(https://s3.gifyu.com/images/48bbda278683c7879bebd57f0e2f9271.gif) no-repeat;
 }
 
 span.vanilla-weather {
@@ -278,7 +282,7 @@ span.vanilla-weather {
 }
 
 span.vanilla-weather:hover {
-    background: url(https://i.imgur.com/uyuk9Rw.png) no-repeat;
+    background: url(https://i.imgur.com/I3JoIcq.png) no-repeat;
     transition: .5s ease-in-out;
 }
 
