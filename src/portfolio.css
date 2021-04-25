@@ -21,6 +21,7 @@ body {
 
 .navbar.navbar-expand-lg.navbar-light {
   border-bottom: 5px solid #945474;
+  font-family: var(--content-font);
 }
 
 navbar-toggler {
