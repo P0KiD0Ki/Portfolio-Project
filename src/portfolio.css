@@ -195,6 +195,13 @@ button.about:hover {
   transition: 0.5s ease-in-out;
 }
 
+h4.skills2 {
+    text-align: center;
+    margin-top: 3px;
+    font-family: var(--content-font);
+    text-decoration: underline;
+  }
+
 h4.skills {
   text-align: center;
   margin-top: 30px;
