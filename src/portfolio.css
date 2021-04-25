@@ -452,6 +452,50 @@ span.col-4 {
     width: 450px;
   }
 
+  span.dictionary-app {
+    margin-bottom: 50px;
+    border: 4px solid var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    background: url(https://i.imgur.com/9Rw2Ngj.png) no-repeat;
+    padding: 150px 200px;
+  }
+  
+  span.dictionary-app:hover {
+    transition: 0.5s ease-in-out;
+    background: url(https://s3.gifyu.com/images/mqreact.gif)
+      no-repeat;
+  }
+  
+  span.react-weather {
+    margin-bottom: 50px;
+    border: 4px solid var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    background: url(https://i.imgur.com/NmQzZ2d.png) no-repeat;
+    padding: 150px 200px;
+  }
+  
+  span.react-weather:hover {
+    transition: 0.5s ease-in-out;
+    background: url(https://s3.gifyu.com/images/mqreact.gif)
+      no-repeat;
+  }
+  
+  span.vanilla-weather {
+    margin-bottom: 50px;
+    border: 4px solid var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    background: url(https://i.imgur.com/M7uucay.png) no-repeat;
+    padding: 150px 200px;
+  }
+  
+  span.vanilla-weather:hover {
+    background: url(https://i.imgur.com/NWI0FWg.png) no-repeat;
+    transition: 0.5s ease-in-out;
+  }
+
   button.work {
     text-align: center;
     font-family: "Poppins", sans-serif;
