@@ -320,7 +320,7 @@ button.work:hover {
 /* contact page */
 
 div.container.contact {
-    border: 4px solid #639463;
+  border: 4px solid #639463;
   background: var(--primary-color);
   border-radius: 8px;
   margin-bottom: 50px;
@@ -330,6 +330,28 @@ div.container.contact {
 }
 
 h5.contact {
-    font-family: var(--content-font);
-    padding-bottom: 20px;
+  font-family: var(--content-font);
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+span.contact-icons {
+  background: #639463;
+  border: 4px solid #fefefe;
+  border-radius: 55px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+div.row.contact {
+    margin: 0 40px;
+}
+
+span.col-4 {
+    padding: 0;
 }
