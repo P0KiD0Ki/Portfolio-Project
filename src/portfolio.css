@@ -273,6 +273,11 @@ span.col-3.contact-icons {
 }
 
 /* work page */
+h1.projects {
+    margin: 150px auto 5px;
+    font-size: 100px;
+  }
+
 p.work {
   text-align: center;
   margin: 50px 150px;
@@ -350,6 +355,11 @@ button.work:hover {
 
 /* contact page */
 
+h1.contact {
+    margin: 150px auto 5px;
+    font-size: 100px;
+  }
+
 div.container.contact {
   border: 4px solid #639463;
   background: var(--primary-color);
@@ -389,7 +399,14 @@ span.col-4 {
 
 /* media queries */
 @media (max-width: 900px) {
-  button.about {
+    h1 {
+        font-family: "Lobster Two", cursive;
+        text-align: center;
+        font-size: 130px;
+        line-height: 160px;
+      }
+
+    button.about {
     text-align: center;
     font-family: "Poppins", sans-serif;
     border-radius: 8px;
@@ -404,6 +421,11 @@ span.col-4 {
 
   ul {
     padding: 0px;
+  }
+
+  h1.projects {
+    margin: 150px auto -30px;
+    font-size: 75px;
   }
 
   p.about {
@@ -453,10 +475,17 @@ span.col-4 {
     margin-bottom: 50px;
     box-shadow: var(--box-shadow);
     width: 450px;
+    margin-top: -50px;
   }
 
   p.work {
       margin: 10px;
       padding-bottom: 10px;
+  }
+
+  h1.contact {
+    margin: 150px auto 15px;
+    font-size: 70px;
+    line-height: 90px;
   }
 }
