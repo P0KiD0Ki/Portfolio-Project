@@ -124,7 +124,7 @@ button.home:hover {
 /* about page */
 
 h1.about-me {
-  margin: 150px auto 30px;
+  margin: 150px auto 5px;
   font-size: 100px;
 }
 
@@ -275,7 +275,9 @@ span.col-3.contact-icons {
 /* work page */
 p.work {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 50px 150px;
+  font-family: var(--content-font);
+  font-size: 17px;
 }
 
 div.container.projects {
@@ -451,5 +453,10 @@ span.col-4 {
     margin-bottom: 50px;
     box-shadow: var(--box-shadow);
     width: 450px;
+  }
+
+  p.work {
+      margin: 10px;
+      padding-bottom: 10px;
   }
 }
