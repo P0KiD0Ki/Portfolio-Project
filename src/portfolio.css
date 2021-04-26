@@ -555,4 +555,8 @@ span.col-4 {
     width: 550px;
     margin: -60px auto 50;
   }
+
+  img.img-fluid.headshot {
+    height: 100%;
+  }
 }
