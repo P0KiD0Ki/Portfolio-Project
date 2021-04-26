@@ -432,8 +432,9 @@ span.col-4 {
   }
 
   h1.projects {
-    margin: 150px auto -30px;
+    margin: 150px auto 15px;
     font-size: 75px;
+    line-height: 80px;
   }
 
   p.about {
