@@ -125,7 +125,7 @@ button.home:hover {
 /* about page */
 
 h1.about-me {
-  margin: 150px auto 5px;
+  margin: 100px auto 5px;
   font-size: 100px;
 }
 
@@ -283,7 +283,7 @@ span.col-3.contact-icons {
 
 /* work page */
 h1.projects {
-  margin: 150px auto 5px;
+  margin: 100px auto 5px;
   font-size: 100px;
 }
 
@@ -365,7 +365,7 @@ button.work:hover {
 /* contact page */
 
 h1.contact {
-  margin: 150px auto 5px;
+  margin: 100px auto 5px;
   font-size: 100px;
 }
 
@@ -433,7 +433,6 @@ span.col-4 {
   }
 
   h1.projects {
-    margin: 150px auto 15px;
     font-size: 75px;
     line-height: 80px;
   }
@@ -540,7 +539,6 @@ span.col-4 {
   }
 
   h1.contact {
-    margin: 150px auto 15px;
     font-size: 70px;
     line-height: 90px;
   }
