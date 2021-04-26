@@ -525,9 +525,9 @@ span.col-4 {
     border-radius: 8px;
     box-shadow: var(--box-shadow);
     width: 375px;
-    margin: -50px 0px 50px 5px;
-    
+    margin: -60px auto 50;
   }
+
   h4.skills2 {
     text-align: center;
     margin-top: -28px;
@@ -542,5 +542,16 @@ span.col-4 {
     margin: 150px auto 15px;
     font-size: 70px;
     line-height: 90px;
+  }
+}
+
+@media (max-width: 899px) and (min-width: 550px) {
+  div.container.about-skills {
+    border: 4px solid #639463;
+    background: var(--primary-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    width: 550px;
+    margin: -60px auto 50;
   }
 }
