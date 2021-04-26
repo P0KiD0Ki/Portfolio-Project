@@ -197,11 +197,11 @@ button.about:hover {
 }
 
 h4.skills2 {
-    text-align: center;
-    margin-top: 3px;
-    font-family: var(--content-font);
-    text-decoration: underline;
-  }
+  text-align: center;
+  margin-top: 3px;
+  font-family: var(--content-font);
+  text-decoration: underline;
+}
 
 h4.skills {
   text-align: center;
@@ -282,9 +282,9 @@ span.col-3.contact-icons {
 
 /* work page */
 h1.projects {
-    margin: 150px auto 5px;
-    font-size: 100px;
-  }
+  margin: 150px auto 5px;
+  font-size: 100px;
+}
 
 p.work {
   text-align: center;
@@ -364,9 +364,9 @@ button.work:hover {
 /* contact page */
 
 h1.contact {
-    margin: 150px auto 5px;
-    font-size: 100px;
-  }
+  margin: 150px auto 5px;
+  font-size: 100px;
+}
 
 div.container.contact {
   border: 4px solid #639463;
@@ -407,14 +407,14 @@ span.col-4 {
 
 /* media queries */
 @media (max-width: 900px) {
-    h1 {
-        font-family: "Lobster Two", cursive;
-        text-align: center;
-        font-size: 130px;
-        line-height: 160px;
-      }
+  h1 {
+    font-family: "Lobster Two", cursive;
+    text-align: center;
+    font-size: 130px;
+    line-height: 160px;
+  }
 
-    button.about {
+  button.about {
     text-align: center;
     font-family: "Poppins", sans-serif;
     border-radius: 8px;
@@ -468,13 +468,12 @@ span.col-4 {
     background: url(https://i.imgur.com/9Rw2Ngj.png) no-repeat;
     padding: 150px 200px;
   }
-  
+
   span.dictionary-app:hover {
     transition: 0.5s ease-in-out;
-    background: url(https://s3.gifyu.com/images/mqreact.gif)
-      no-repeat;
+    background: url(https://s3.gifyu.com/images/mqreact.gif) no-repeat;
   }
-  
+
   span.react-weather {
     margin-bottom: 50px;
     border: 4px solid var(--secondary-color);
@@ -483,13 +482,12 @@ span.col-4 {
     background: url(https://i.imgur.com/NmQzZ2d.png) no-repeat;
     padding: 150px 200px;
   }
-  
+
   span.react-weather:hover {
     transition: 0.5s ease-in-out;
-    background: url(https://s3.gifyu.com/images/mqreact.gif)
-      no-repeat;
+    background: url(https://s3.gifyu.com/images/mqreact.gif) no-repeat;
   }
-  
+
   span.vanilla-weather {
     margin-bottom: 50px;
     border: 4px solid var(--secondary-color);
@@ -498,7 +496,7 @@ span.col-4 {
     background: url(https://i.imgur.com/M7uucay.png) no-repeat;
     padding: 150px 200px;
   }
-  
+
   span.vanilla-weather:hover {
     background: url(https://i.imgur.com/NWI0FWg.png) no-repeat;
     transition: 0.5s ease-in-out;
@@ -531,8 +529,8 @@ span.col-4 {
   }
 
   p.work {
-      margin: 10px;
-      padding-bottom: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
   }
 
   h1.contact {
