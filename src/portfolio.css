@@ -136,6 +136,7 @@ img.img-fluid.headshot {
   padding: 0;
   border-radius: 8px;
   box-shadow: var(--box-shadow);
+  height: 100%;
 }
 
 span.col-md-6,
